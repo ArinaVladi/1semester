@@ -1,0 +1,5 @@
+move 10 ax
+push ax 
+out
+meow ax
+hlt

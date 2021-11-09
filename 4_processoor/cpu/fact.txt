@@ -1,0 +1,45 @@
+in ax
+push ax
+
+
+cmp ax 0
+jb stop
+
+move ax bx
+pop bx
+
+
+call factorial
+push bx
+pop [bx+12]
+meow [bx+12]
+push bx
+out
+hlt
+
+stop:
+    push 0
+    out
+hlt    
+
+factorial:
+    
+    cmp ax 1
+    jbe break
+
+	
+    push ax
+    push 1
+    sub
+    pop ax
+
+    push ax
+    push bx
+    mul
+    
+	pop bx
+
+	call factorial
+
+	break:
+ret

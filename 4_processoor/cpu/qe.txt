@@ -1,0 +1,108 @@
+in ax
+in bx
+in cx
+
+cmp ax 0
+je linear
+
+call discr
+
+cmp dx 0
+je discr_zero
+ja discr_positive
+jb discr_negative
+hlt
+
+linear:
+
+    cmp bx 0
+    je const
+
+    push 1
+    out
+    
+    push cx
+    push bx
+    div  
+    push -1
+    mul  
+    out
+
+hlt
+
+discr:
+    push bx
+    pow 2
+    push 4
+    push ax
+    push cx
+    mul
+    mul
+    sub
+    pop dx
+    push dx
+ret 1
+
+discr_zero:
+    push 1
+    out
+
+    push -1
+    push bx
+    mul
+    pus 2
+    push ax
+    mul
+    div
+    
+hlt
+
+discr_positive:
+
+    push 2
+    out
+
+    push dx
+    sqrt
+    pop dx
+    push -1
+    push bx
+    mul
+    pop bx
+
+    push bx
+    put
+    push dx
+    add
+    push ax
+    push 2
+    mul
+    div
+    out
+
+    push bx
+    push dx
+    sub
+    push ax
+    push 2
+    mul
+    div
+    out
+hlt
+
+discr_negative:
+    push 0
+    out
+hlt
+
+const:
+    cmp cx 0
+    je inf
+    push 0
+    out
+hlt
+
+inf:
+    push 888
+    out
+hlt

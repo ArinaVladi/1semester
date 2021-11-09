@@ -1,0 +1,215 @@
+move 200 ax
+
+push 2
+push ax
+push -1
+mul
+mul
+push 3
+add
+pop dx
+
+move bx 0
+
+push ax
+push -1
+mul
+pop cx
+
+move 0 [1]
+
+move 49 tx
+
+move 300 [20]
+
+push ax
+push 3
+mul
+push 4
+div
+pop ax
+
+cmp [1] ax
+jb fill_vm
+
+fill_vm:
+
+    call new_d
+
+    call symmentry
+
+    push 1
+    push [1]
+    add
+    pop [1]
+
+    cmp [1] ax
+    jb fill_vm
+move 10 ax
+meow[22+ax]
+draw  
+hlt   
+
+
+
+new_d:
+
+    cmp dx 0
+        jb no_increase
+        jae increase        
+
+    increase:
+
+        push cx  
+        push 4
+        mul
+        push 10
+        add
+        push dx
+        add
+        pop dx
+
+        push cx
+        push 1
+        add 
+        pop cx
+      
+
+    no_increase:
+
+        push bx
+        push 4
+        mul
+        push 6
+        add
+        push dx
+        add
+        pop dx
+        push 1
+
+    push bx
+    push 1
+    add
+    pop bx    
+ret 1
+
+symmentry:
+
+    push bx 
+    push 300
+    add
+    call increase_tx
+    pop [tx]
+    push cx 
+    push 300
+    add
+    call increase_tx
+    pop [tx]
+
+
+    push bx 
+    push 300
+    add 
+    call increase_tx
+    pop [tx]
+    push cx
+    push -1
+    mul
+    push 300
+    add
+    call increase_tx
+    pop [tx]
+
+    push bx
+    push -1
+    mul
+    push 300
+    add
+    call increase_tx
+    pop [tx]
+    push cx
+    push -1
+    mul
+    push 300
+    add
+    call increase_tx
+    pop [tx] 
+
+    push bx
+    push -1
+    mul
+    push 300
+    add
+    call increase_tx
+    pop [tx]
+    push cx 
+    push 300
+    add
+    call increase_tx
+    pop [tx]
+
+    push cx 
+    push 300
+    add
+    call increase_tx
+    pop [tx]
+    push bx 
+    push 300
+    add
+    call increase_tx
+    pop [tx]
+
+    push cx 
+    push 300
+    add 
+    call increase_tx
+    pop [tx]
+    push bx
+    push -1
+    mul
+    push 300
+    add
+    call increase_tx
+    pop [tx]
+
+    push cx
+    push -1
+    mul
+    push 300
+    add
+    call increase_tx
+    pop [tx]
+    push bx
+    push -1
+    mul
+    push 300
+    add
+    call increase_tx
+    pop [tx] 
+
+    push cx
+    push -1
+    mul
+    push 300
+    add
+    call increase_tx
+    pop [tx]
+    push bx 
+    push 300
+    add
+    call increase_tx
+    pop [tx]
+
+
+    push 1
+
+ret 1
+
+increase_tx:
+    push tx
+    push 1
+    add
+    pop tx
+
+    push 1
+ret  1

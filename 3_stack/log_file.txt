@@ -1,0 +1,2995 @@
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       Ctor
+    line:           64
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          0 (ok)
+	capacity =          5 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          - | [   0] |          2038 | (poison)
+          - | [   1] |          2038 | (poison)
+          - | [   2] |          2038 | (poison)
+          - | [   3] |          2038 | (poison)
+          - | [   4] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       push
+    line:           120
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          0 (ok)
+	capacity =          5 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          - | [   0] |          2038 | (poison)
+          - | [   1] |          2038 | (poison)
+          - | [   2] |          2038 | (poison)
+          - | [   3] |          2038 | (poison)
+          - | [   4] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       push
+    line:           134
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          1 (ok)
+	capacity =          5 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          - | [   1] |          2038 | (poison)
+          - | [   2] |          2038 | (poison)
+          - | [   3] |          2038 | (poison)
+          - | [   4] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       push
+    line:           120
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          1 (ok)
+	capacity =          5 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          - | [   1] |          2038 | (poison)
+          - | [   2] |          2038 | (poison)
+          - | [   3] |          2038 | (poison)
+          - | [   4] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       push
+    line:           134
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          2 (ok)
+	capacity =          5 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          - | [   2] |          2038 | (poison)
+          - | [   3] |          2038 | (poison)
+          - | [   4] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       push
+    line:           120
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          2 (ok)
+	capacity =          5 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          - | [   2] |          2038 | (poison)
+          - | [   3] |          2038 | (poison)
+          - | [   4] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       push
+    line:           134
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          3 (ok)
+	capacity =          5 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          - | [   3] |          2038 | (poison)
+          - | [   4] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       push
+    line:           120
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          3 (ok)
+	capacity =          5 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          - | [   3] |          2038 | (poison)
+          - | [   4] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       push
+    line:           134
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          4 (ok)
+	capacity =          5 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          + | [   3] |             4 | (ok)
+          - | [   4] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       push
+    line:           120
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          4 (ok)
+	capacity =          5 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          + | [   3] |             4 | (ok)
+          - | [   4] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       push
+    line:           134
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          5 (ok)
+	capacity =          5 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          + | [   3] |             4 | (ok)
+          + | [   4] |             5 | (ok)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       push
+    line:           120
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          5 (ok)
+	capacity =          5 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          + | [   3] |             4 | (ok)
+          + | [   4] |             5 | (ok)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       increase
+    line:           75
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          5 (ok)
+	capacity =          5 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          + | [   3] |             4 | (ok)
+          + | [   4] |             5 | (ok)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       increase
+    line:           110
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          5 (ok)
+	capacity =         10 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          + | [   3] |             4 | (ok)
+          + | [   4] |             5 | (ok)
+          - | [   5] |          2038 | (poison)
+          - | [   6] |          2038 | (poison)
+          - | [   7] |          2038 | (poison)
+          - | [   8] |          2038 | (poison)
+          - | [   9] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       push
+    line:           134
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          6 (ok)
+	capacity =         10 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          + | [   3] |             4 | (ok)
+          + | [   4] |             5 | (ok)
+          + | [   5] |             6 | (ok)
+          - | [   6] |          2038 | (poison)
+          - | [   7] |          2038 | (poison)
+          - | [   8] |          2038 | (poison)
+          - | [   9] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       push
+    line:           120
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          6 (ok)
+	capacity =         10 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          + | [   3] |             4 | (ok)
+          + | [   4] |             5 | (ok)
+          + | [   5] |             6 | (ok)
+          - | [   6] |          2038 | (poison)
+          - | [   7] |          2038 | (poison)
+          - | [   8] |          2038 | (poison)
+          - | [   9] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       push
+    line:           134
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          7 (ok)
+	capacity =         10 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          + | [   3] |             4 | (ok)
+          + | [   4] |             5 | (ok)
+          + | [   5] |             6 | (ok)
+          + | [   6] |             7 | (ok)
+          - | [   7] |          2038 | (poison)
+          - | [   8] |          2038 | (poison)
+          - | [   9] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       push
+    line:           120
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          7 (ok)
+	capacity =         10 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          + | [   3] |             4 | (ok)
+          + | [   4] |             5 | (ok)
+          + | [   5] |             6 | (ok)
+          + | [   6] |             7 | (ok)
+          - | [   7] |          2038 | (poison)
+          - | [   8] |          2038 | (poison)
+          - | [   9] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       push
+    line:           134
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          8 (ok)
+	capacity =         10 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          + | [   3] |             4 | (ok)
+          + | [   4] |             5 | (ok)
+          + | [   5] |             6 | (ok)
+          + | [   6] |             7 | (ok)
+          + | [   7] |             8 | (ok)
+          - | [   8] |          2038 | (poison)
+          - | [   9] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       push
+    line:           120
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          8 (ok)
+	capacity =         10 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          + | [   3] |             4 | (ok)
+          + | [   4] |             5 | (ok)
+          + | [   5] |             6 | (ok)
+          + | [   6] |             7 | (ok)
+          + | [   7] |             8 | (ok)
+          - | [   8] |          2038 | (poison)
+          - | [   9] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       push
+    line:           134
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          9 (ok)
+	capacity =         10 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          + | [   3] |             4 | (ok)
+          + | [   4] |             5 | (ok)
+          + | [   5] |             6 | (ok)
+          + | [   6] |             7 | (ok)
+          + | [   7] |             8 | (ok)
+          + | [   8] |             9 | (ok)
+          - | [   9] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       push
+    line:           120
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          9 (ok)
+	capacity =         10 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          + | [   3] |             4 | (ok)
+          + | [   4] |             5 | (ok)
+          + | [   5] |             6 | (ok)
+          + | [   6] |             7 | (ok)
+          + | [   7] |             8 | (ok)
+          + | [   8] |             9 | (ok)
+          - | [   9] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       push
+    line:           134
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =         10 (ok)
+	capacity =         10 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          + | [   3] |             4 | (ok)
+          + | [   4] |             5 | (ok)
+          + | [   5] |             6 | (ok)
+          + | [   6] |             7 | (ok)
+          + | [   7] |             8 | (ok)
+          + | [   8] |             9 | (ok)
+          + | [   9] |            10 | (ok)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       top
+    line:           167
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =         10 (ok)
+	capacity =         10 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          + | [   3] |             4 | (ok)
+          + | [   4] |             5 | (ok)
+          + | [   5] |             6 | (ok)
+          + | [   6] |             7 | (ok)
+          + | [   7] |             8 | (ok)
+          + | [   8] |             9 | (ok)
+          + | [   9] |            10 | (ok)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       top
+    line:           173
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =         10 (ok)
+	capacity =         10 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          + | [   3] |             4 | (ok)
+          + | [   4] |             5 | (ok)
+          + | [   5] |             6 | (ok)
+          + | [   6] |             7 | (ok)
+          + | [   7] |             8 | (ok)
+          + | [   8] |             9 | (ok)
+          + | [   9] |            10 | (ok)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       pop
+    line:           141
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =         10 (ok)
+	capacity =         10 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          + | [   3] |             4 | (ok)
+          + | [   4] |             5 | (ok)
+          + | [   5] |             6 | (ok)
+          + | [   6] |             7 | (ok)
+          + | [   7] |             8 | (ok)
+          + | [   8] |             9 | (ok)
+          + | [   9] |            10 | (ok)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       pop
+    line:           161
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          9 (ok)
+	capacity =         10 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          + | [   3] |             4 | (ok)
+          + | [   4] |             5 | (ok)
+          + | [   5] |             6 | (ok)
+          + | [   6] |             7 | (ok)
+          + | [   7] |             8 | (ok)
+          + | [   8] |             9 | (ok)
+          - | [   9] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       top
+    line:           167
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          9 (ok)
+	capacity =         10 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          + | [   3] |             4 | (ok)
+          + | [   4] |             5 | (ok)
+          + | [   5] |             6 | (ok)
+          + | [   6] |             7 | (ok)
+          + | [   7] |             8 | (ok)
+          + | [   8] |             9 | (ok)
+          - | [   9] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       top
+    line:           173
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          9 (ok)
+	capacity =         10 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          + | [   3] |             4 | (ok)
+          + | [   4] |             5 | (ok)
+          + | [   5] |             6 | (ok)
+          + | [   6] |             7 | (ok)
+          + | [   7] |             8 | (ok)
+          + | [   8] |             9 | (ok)
+          - | [   9] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       top
+    line:           167
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          9 (ok)
+	capacity =         10 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          + | [   3] |             4 | (ok)
+          + | [   4] |             5 | (ok)
+          + | [   5] |             6 | (ok)
+          + | [   6] |             7 | (ok)
+          + | [   7] |             8 | (ok)
+          + | [   8] |             9 | (ok)
+          - | [   9] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       top
+    line:           173
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          9 (ok)
+	capacity =         10 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          + | [   3] |             4 | (ok)
+          + | [   4] |             5 | (ok)
+          + | [   5] |             6 | (ok)
+          + | [   6] |             7 | (ok)
+          + | [   7] |             8 | (ok)
+          + | [   8] |             9 | (ok)
+          - | [   9] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       pop
+    line:           141
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          9 (ok)
+	capacity =         10 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          + | [   3] |             4 | (ok)
+          + | [   4] |             5 | (ok)
+          + | [   5] |             6 | (ok)
+          + | [   6] |             7 | (ok)
+          + | [   7] |             8 | (ok)
+          + | [   8] |             9 | (ok)
+          - | [   9] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       pop
+    line:           161
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          8 (ok)
+	capacity =         10 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          + | [   3] |             4 | (ok)
+          + | [   4] |             5 | (ok)
+          + | [   5] |             6 | (ok)
+          + | [   6] |             7 | (ok)
+          + | [   7] |             8 | (ok)
+          - | [   8] |          2038 | (poison)
+          - | [   9] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       top
+    line:           167
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          8 (ok)
+	capacity =         10 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          + | [   3] |             4 | (ok)
+          + | [   4] |             5 | (ok)
+          + | [   5] |             6 | (ok)
+          + | [   6] |             7 | (ok)
+          + | [   7] |             8 | (ok)
+          - | [   8] |          2038 | (poison)
+          - | [   9] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       top
+    line:           173
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          8 (ok)
+	capacity =         10 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          + | [   3] |             4 | (ok)
+          + | [   4] |             5 | (ok)
+          + | [   5] |             6 | (ok)
+          + | [   6] |             7 | (ok)
+          + | [   7] |             8 | (ok)
+          - | [   8] |          2038 | (poison)
+          - | [   9] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       top
+    line:           167
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          8 (ok)
+	capacity =         10 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          + | [   3] |             4 | (ok)
+          + | [   4] |             5 | (ok)
+          + | [   5] |             6 | (ok)
+          + | [   6] |             7 | (ok)
+          + | [   7] |             8 | (ok)
+          - | [   8] |          2038 | (poison)
+          - | [   9] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       top
+    line:           173
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          8 (ok)
+	capacity =         10 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          + | [   3] |             4 | (ok)
+          + | [   4] |             5 | (ok)
+          + | [   5] |             6 | (ok)
+          + | [   6] |             7 | (ok)
+          + | [   7] |             8 | (ok)
+          - | [   8] |          2038 | (poison)
+          - | [   9] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       pop
+    line:           141
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          8 (ok)
+	capacity =         10 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          + | [   3] |             4 | (ok)
+          + | [   4] |             5 | (ok)
+          + | [   5] |             6 | (ok)
+          + | [   6] |             7 | (ok)
+          + | [   7] |             8 | (ok)
+          - | [   8] |          2038 | (poison)
+          - | [   9] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       pop
+    line:           161
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          7 (ok)
+	capacity =         10 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          + | [   3] |             4 | (ok)
+          + | [   4] |             5 | (ok)
+          + | [   5] |             6 | (ok)
+          + | [   6] |             7 | (ok)
+          - | [   7] |          2038 | (poison)
+          - | [   8] |          2038 | (poison)
+          - | [   9] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       top
+    line:           167
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          7 (ok)
+	capacity =         10 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          + | [   3] |             4 | (ok)
+          + | [   4] |             5 | (ok)
+          + | [   5] |             6 | (ok)
+          + | [   6] |             7 | (ok)
+          - | [   7] |          2038 | (poison)
+          - | [   8] |          2038 | (poison)
+          - | [   9] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       top
+    line:           173
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          7 (ok)
+	capacity =         10 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          + | [   3] |             4 | (ok)
+          + | [   4] |             5 | (ok)
+          + | [   5] |             6 | (ok)
+          + | [   6] |             7 | (ok)
+          - | [   7] |          2038 | (poison)
+          - | [   8] |          2038 | (poison)
+          - | [   9] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       top
+    line:           167
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          7 (ok)
+	capacity =         10 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          + | [   3] |             4 | (ok)
+          + | [   4] |             5 | (ok)
+          + | [   5] |             6 | (ok)
+          + | [   6] |             7 | (ok)
+          - | [   7] |          2038 | (poison)
+          - | [   8] |          2038 | (poison)
+          - | [   9] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       top
+    line:           173
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          7 (ok)
+	capacity =         10 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          + | [   3] |             4 | (ok)
+          + | [   4] |             5 | (ok)
+          + | [   5] |             6 | (ok)
+          + | [   6] |             7 | (ok)
+          - | [   7] |          2038 | (poison)
+          - | [   8] |          2038 | (poison)
+          - | [   9] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       pop
+    line:           141
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          7 (ok)
+	capacity =         10 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          + | [   3] |             4 | (ok)
+          + | [   4] |             5 | (ok)
+          + | [   5] |             6 | (ok)
+          + | [   6] |             7 | (ok)
+          - | [   7] |          2038 | (poison)
+          - | [   8] |          2038 | (poison)
+          - | [   9] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       shrink_stack
+    line:           178
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          6 (ok)
+	capacity =         10 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          + | [   3] |             4 | (ok)
+          + | [   4] |             5 | (ok)
+          + | [   5] |             6 | (ok)
+          - | [   6] |          2038 | (poison)
+          - | [   7] |          2038 | (poison)
+          - | [   8] |          2038 | (poison)
+          - | [   9] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       shrink_stack
+    line:           207
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          6 (ok)
+	capacity =          6 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          + | [   3] |             4 | (ok)
+          + | [   4] |             5 | (ok)
+          + | [   5] |             6 | (ok)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       pop
+    line:           161
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          6 (ok)
+	capacity =          6 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          + | [   3] |             4 | (ok)
+          + | [   4] |             5 | (ok)
+          + | [   5] |             6 | (ok)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       top
+    line:           167
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          6 (ok)
+	capacity =          6 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          + | [   3] |             4 | (ok)
+          + | [   4] |             5 | (ok)
+          + | [   5] |             6 | (ok)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       top
+    line:           173
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          6 (ok)
+	capacity =          6 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          + | [   3] |             4 | (ok)
+          + | [   4] |             5 | (ok)
+          + | [   5] |             6 | (ok)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       top
+    line:           167
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          6 (ok)
+	capacity =          6 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          + | [   3] |             4 | (ok)
+          + | [   4] |             5 | (ok)
+          + | [   5] |             6 | (ok)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       top
+    line:           173
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          6 (ok)
+	capacity =          6 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          + | [   3] |             4 | (ok)
+          + | [   4] |             5 | (ok)
+          + | [   5] |             6 | (ok)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       pop
+    line:           141
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          6 (ok)
+	capacity =          6 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          + | [   3] |             4 | (ok)
+          + | [   4] |             5 | (ok)
+          + | [   5] |             6 | (ok)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       pop
+    line:           161
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          5 (ok)
+	capacity =          6 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          + | [   3] |             4 | (ok)
+          + | [   4] |             5 | (ok)
+          - | [   5] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       top
+    line:           167
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          5 (ok)
+	capacity =          6 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          + | [   3] |             4 | (ok)
+          + | [   4] |             5 | (ok)
+          - | [   5] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       top
+    line:           173
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          5 (ok)
+	capacity =          6 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          + | [   3] |             4 | (ok)
+          + | [   4] |             5 | (ok)
+          - | [   5] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       top
+    line:           167
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          5 (ok)
+	capacity =          6 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          + | [   3] |             4 | (ok)
+          + | [   4] |             5 | (ok)
+          - | [   5] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       top
+    line:           173
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          5 (ok)
+	capacity =          6 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          + | [   3] |             4 | (ok)
+          + | [   4] |             5 | (ok)
+          - | [   5] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       pop
+    line:           141
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          5 (ok)
+	capacity =          6 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          + | [   3] |             4 | (ok)
+          + | [   4] |             5 | (ok)
+          - | [   5] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       pop
+    line:           161
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          4 (ok)
+	capacity =          6 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          + | [   3] |             4 | (ok)
+          - | [   4] |          2038 | (poison)
+          - | [   5] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       top
+    line:           167
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          4 (ok)
+	capacity =          6 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          + | [   3] |             4 | (ok)
+          - | [   4] |          2038 | (poison)
+          - | [   5] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       top
+    line:           173
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          4 (ok)
+	capacity =          6 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          + | [   3] |             4 | (ok)
+          - | [   4] |          2038 | (poison)
+          - | [   5] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       top
+    line:           167
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          4 (ok)
+	capacity =          6 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          + | [   3] |             4 | (ok)
+          - | [   4] |          2038 | (poison)
+          - | [   5] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       top
+    line:           173
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          4 (ok)
+	capacity =          6 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          + | [   3] |             4 | (ok)
+          - | [   4] |          2038 | (poison)
+          - | [   5] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       pop
+    line:           141
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          4 (ok)
+	capacity =          6 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          + | [   3] |             4 | (ok)
+          - | [   4] |          2038 | (poison)
+          - | [   5] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       pop
+    line:           161
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          3 (ok)
+	capacity =          6 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          - | [   3] |          2038 | (poison)
+          - | [   4] |          2038 | (poison)
+          - | [   5] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       top
+    line:           167
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          3 (ok)
+	capacity =          6 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          - | [   3] |          2038 | (poison)
+          - | [   4] |          2038 | (poison)
+          - | [   5] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       top
+    line:           173
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          3 (ok)
+	capacity =          6 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          - | [   3] |          2038 | (poison)
+          - | [   4] |          2038 | (poison)
+          - | [   5] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       top
+    line:           167
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          3 (ok)
+	capacity =          6 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          - | [   3] |          2038 | (poison)
+          - | [   4] |          2038 | (poison)
+          - | [   5] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       top
+    line:           173
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          3 (ok)
+	capacity =          6 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          - | [   3] |          2038 | (poison)
+          - | [   4] |          2038 | (poison)
+          - | [   5] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       pop
+    line:           141
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          3 (ok)
+	capacity =          6 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          + | [   2] |             3 | (ok)
+          - | [   3] |          2038 | (poison)
+          - | [   4] |          2038 | (poison)
+          - | [   5] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       pop
+    line:           161
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          2 (ok)
+	capacity =          6 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          - | [   2] |          2038 | (poison)
+          - | [   3] |          2038 | (poison)
+          - | [   4] |          2038 | (poison)
+          - | [   5] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       top
+    line:           167
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          2 (ok)
+	capacity =          6 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          - | [   2] |          2038 | (poison)
+          - | [   3] |          2038 | (poison)
+          - | [   4] |          2038 | (poison)
+          - | [   5] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       top
+    line:           173
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          2 (ok)
+	capacity =          6 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          - | [   2] |          2038 | (poison)
+          - | [   3] |          2038 | (poison)
+          - | [   4] |          2038 | (poison)
+          - | [   5] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       top
+    line:           167
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          2 (ok)
+	capacity =          6 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          - | [   2] |          2038 | (poison)
+          - | [   3] |          2038 | (poison)
+          - | [   4] |          2038 | (poison)
+          - | [   5] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       top
+    line:           173
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          2 (ok)
+	capacity =          6 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          - | [   2] |          2038 | (poison)
+          - | [   3] |          2038 | (poison)
+          - | [   4] |          2038 | (poison)
+          - | [   5] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       pop
+    line:           141
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          2 (ok)
+	capacity =          6 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          + | [   1] |             2 | (ok)
+          - | [   2] |          2038 | (poison)
+          - | [   3] |          2038 | (poison)
+          - | [   4] |          2038 | (poison)
+          - | [   5] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       pop
+    line:           161
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          1 (ok)
+	capacity =          6 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          - | [   1] |          2038 | (poison)
+          - | [   2] |          2038 | (poison)
+          - | [   3] |          2038 | (poison)
+          - | [   4] |          2038 | (poison)
+          - | [   5] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       top
+    line:           167
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          1 (ok)
+	capacity =          6 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          - | [   1] |          2038 | (poison)
+          - | [   2] |          2038 | (poison)
+          - | [   3] |          2038 | (poison)
+          - | [   4] |          2038 | (poison)
+          - | [   5] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       top
+    line:           173
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          1 (ok)
+	capacity =          6 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          - | [   1] |          2038 | (poison)
+          - | [   2] |          2038 | (poison)
+          - | [   3] |          2038 | (poison)
+          - | [   4] |          2038 | (poison)
+          - | [   5] |          2038 | (poison)
+--------------------------------------------------------------------------------
+Oct 24 2021 14:24:14
+ERROR: 
+DUMP from:
+    file:           D:\Main folder\repos\primitive_stack\stack.cpp
+    function:       Dtor
+    line:           214
+    name:           was not provided
+    object address: 000000000061FD70 (ok)
+    object type:    was not provided
+    data type:      was not provided
+    data elem size: 4
+Mode:
+	Verifier           +
+	Hash protection    +
+	Canary protection  +
+	Copy protection    -
+
+Stack data:
+
+	size     =          1 (ok)
+	capacity =          6 (ok)
+
+	left  canary =      18565 (ok)
+  	right canary =      18565 (ok)
+
+	data   hash status = (ok)
+  	struct hash status = (ok)
+
+    is init | number |     value     | status
+          + | [   0] |             1 | (ok)
+          - | [   1] |          2038 | (poison)
+          - | [   2] |          2038 | (poison)
+          - | [   3] |          2038 | (poison)
+          - | [   4] |          2038 | (poison)
+          - | [   5] |          2038 | (poison)

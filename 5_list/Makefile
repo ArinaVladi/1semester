@@ -23,6 +23,9 @@ else
     BUILD_PATH = build-release
 endif
 
+#CXXFLAGS += -Igoogletest/include
+#LXXFLAGS += -Lgoogletest/lib -lgtest -lgtest_main -lpthread
+
 
 # Search for source files
 SRC_FULL_PATH = $(shell where /r ./ *.cpp)
@@ -39,7 +42,7 @@ OBJ = $(addprefix $(BIN_DIR)/, $(SRC:.cpp=.o))
 # Build project
 #list: $(OBJ) Makefile
 list: bin/list.o bin/tests.o Makefile
-	g++ bin/list.o bin/tests.o -o build_debug/list
+	g++ bin/list.o bin/tests.o -o build_debug/list $(LXXFLAGS)
 
 # Dependency checking
 #include $(addprefix $(BIN_DIR)/, $(SRC:.cpp=.d))

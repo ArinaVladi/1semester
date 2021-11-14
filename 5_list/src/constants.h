@@ -4,6 +4,7 @@
 
 const int  CAPACITY   =     10;
 const double POISON   = -2.038;
+const int INT_POISON = -12345;
 
 enum ELEM_TYPES {
     HEAD     = 1,
@@ -11,8 +12,8 @@ enum ELEM_TYPES {
     TAIL     = 3
 };
 
-#define Xprintf_img(format, ...)  fprintf(dump_file, format, __VA_ARGS__);
-#define Xprint_img(str)           fprintf(dump_file, "%s", str);
+// #define Xprintf_img(format, ...)  fprintf(dump_file, format, __VA_ARGS__);
+// #define Xprint_img(str)           fprintf(dump_file, "%s", str);
 
 #define Xline_color(clr) Xprintf_img("node[color=\"%s\",fontsize=14];\n", #clr);
 

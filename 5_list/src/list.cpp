@@ -1,38 +1,12 @@
 #include "list.h"
 
-char* test_names[] = {
-
-    "Push back",               // 1
-    "Push back",               // 2
-    "Push back",               // 3
-    "Push back",               // 4
-    "Push back",               // 5
-    "Push back",               // 6
-  
-    "Push front",              // 7
-    "Push front",              // 8
-    "Push front",              // 9
-    "Push front",              // 10
-    "Push front",              // 11
-    "Push front",              // 12
-    "Push front",              // 13
-    "Push front",              // 14
-    "Push front",              // 15
-    "Push front",              // 16
-    "Push front",              // 17
-  
-    "Erase",                   // 18
-    "Erase by logical index",  // 19
- 
-    "Insert",                  // 20
-    "Insert by logical index", // 21
-    
-    "Pop back",                // 22
-    "Pop front",               // 23
-
-    "Sort",                    // 24
+const char* ERROR_NAMES[] = {
+    "              OK.",                                 // 0
+    "              zero element is wrong;\n",            // 1
+    "              one of \"next\" fields is wrong;\n",  // 2
+    "              one of \"prev\" fields is wrong;\n",  // 3
+    "              some of size parametres are wrong;\n" // 4
 };
-
 
 char* END_SIGNALS[] = {
     "OK",
@@ -57,16 +31,24 @@ RETURNED_SIGNALS List::Ctor() {
     is_sorted  = true;
     status     =    0;
 
+    log_file_name = "log_file.txt";
+    remove("log_file.txt");
+
     for (int i = 0; i < capacity; i++) {
         //               data,  next, prev 
         elements[i] = {POISON,  i+ 1,   -1};
     }
 
     elements[0] = {POISON, 0, 0};
+
+    ASSERT_OK
+
     return RETURNED_SIGNALS::OK;
 }
 
 RETURNED_SIGNALS List::Dtor() {
+
+    ASSERT_OK
 
     for (int i = 0; i < capacity; i++) {
         //               data, next, prev 
@@ -84,14 +66,18 @@ RETURNED_SIGNALS List::Dtor() {
 
 
 elem_t List::front() {
-   return elements[head].data; 
+    ASSERT_OK
+    return elements[head].data; 
 }
 
 elem_t List::back() {
-   return elements[tail].data; 
+    ASSERT_OK
+    return elements[tail].data; 
 }
 
 RETURNED_SIGNALS  List::increase_capacity() {
+
+    ASSERT_OK
 
     int increased_capacity = 2 * capacity;
     Node* increased_elements = (Node*) calloc(increased_capacity, sizeof(Node));
@@ -116,13 +102,15 @@ RETURNED_SIGNALS  List::increase_capacity() {
     free(elements);
 
     elements = increased_elements;
+    ASSERT_OK
     return RETURNED_SIGNALS::OK;
 }
 
 RETURNED_SIGNALS  List::decrease_capacity() {
 
+    ASSERT_OK
+
     if (is_sorted == false) {
-        printf("Unable to decrease. Sort the list first\n");
         return RETURNED_SIGNALS::WRONG_IS_SORTED_STATE;
     }
 
@@ -149,12 +137,16 @@ RETURNED_SIGNALS  List::decrease_capacity() {
     free(elements);
     elements = decreased_elements;
 
+    ASSERT_OK
+
     return RETURNED_SIGNALS::OK;
 }
 
 //-------------------------------------------------------------list insert functions--------------------------------------------------------------
 
 RETURNED_SIGNALS List::insert(size_t index, const elem_t* value) {
+
+    ASSERT_OK
 
     if (((tail == capacity - 1) || (size >= capacity - 1)) && first_free == capacity) {
         if (increase_capacity() != RETURNED_SIGNALS::OK) {
@@ -166,7 +158,7 @@ RETURNED_SIGNALS List::insert(size_t index, const elem_t* value) {
         return RETURNED_SIGNALS::WRONG_INDEX;
     }
 
-    if (index != elements[first_free].prev) is_sorted = 0;
+    if (index != tail) is_sorted = false;
     
     elements[first_free].data = *value;
     
@@ -183,21 +175,31 @@ RETURNED_SIGNALS List::insert(size_t index, const elem_t* value) {
     tail = elements[0].prev;
     size++;
 
+    ASSERT_OK
+
     return RETURNED_SIGNALS::OK;
 }
 
-RETURNED_SIGNALS List::insert_by_logical_index (size_t logical_index, elem_t* val) {
+RETURNED_SIGNALS List::insert_by_logical_index (size_t logical_index, const elem_t* val) {
+
+    ASSERT_OK
 
     size_t phys_index = 0;
     get_physical_index_by_logical_index(logical_index, &phys_index);
     insert(phys_index, val);
+
+    ASSERT_OK
 }
 
 RETURNED_SIGNALS List::push_back(const elem_t* value) {
+
+    ASSERT_OK
+
     return insert(tail, value);
 }
 
 RETURNED_SIGNALS List::push_front(const elem_t* value) {
+    ASSERT_OK
     return insert(0, value);
 }
 
@@ -205,11 +207,13 @@ RETURNED_SIGNALS List::push_front(const elem_t* value) {
 
 RETURNED_SIGNALS List::erase(size_t index) {
 
+    ASSERT_OK
+
     if((index == 0) || (index >= capacity) || (elements[index].prev == -1)){
         return RETURNED_SIGNALS::WRONG_INDEX;
     }
 
-    if((index != tail) || (index != head)){
+    if((index != tail) && (index != head)){
         is_sorted = false;
     }
 
@@ -232,45 +236,54 @@ RETURNED_SIGNALS List::erase(size_t index) {
         }
     }
     
-    // *value = elements[index].data;
-    // elements[index].next = first_free;
-    elements[index].prev =         -1;
-    elements[index].data =     POISON;
-    // first_free = index;
+    elements[index].prev =     -1;
+    elements[index].data = POISON;
     
     head = elements[0].next;
     tail = elements[0].prev;
     size--;
 
-    if((size < (capacity / 2)) && (is_sorted == true)){
-        printf("DECREASE head = %d, tail = %d, size = %d, capacity = %d\n", head, tail, size, capacity / 2);
+    if((size < (capacity / 2)) && (is_sorted == true)) {
+
         if (decrease_capacity() != RETURNED_SIGNALS::OK) {
             return RETURNED_SIGNALS::DECREASE_FAILURE;
         }
     }
+
+    ASSERT_OK
+
     return RETURNED_SIGNALS::OK;
 }
 
-RETURNED_SIGNALS List::erase_by_by_logical_index (size_t logical_index) {
+RETURNED_SIGNALS List::erase_by_logical_index (size_t logical_index) {
+
+    ASSERT_OK
     
     size_t phys_ind = 0;
     if (get_physical_index_by_logical_index (logical_index, &phys_ind) != RETURNED_SIGNALS::OK) {
         return RETURNED_SIGNALS::WRONG_INDEX;
     }
+
+    ASSERT_OK
+
     return erase(phys_ind);
 }
 
 RETURNED_SIGNALS List::pop_back() {
+    ASSERT_OK
     return erase(tail);
 }
 
 RETURNED_SIGNALS List::pop_front() {
+    ASSERT_OK
     return erase(head);
 }
 
 //----------------------------------------------------------------------sort----------------------------------------------------------------------
 
 RETURNED_SIGNALS List::sort(){
+
+    ASSERT_OK
 
     Node* buf = (Node*)calloc(capacity, sizeof(Node));
     
@@ -302,7 +315,16 @@ RETURNED_SIGNALS List::sort(){
     elements[head].prev = 0;
     elements[tail].next = 0;
 
-    first_free = size + 1;
+    first_free = size + 1; 
+
+   /* for (int curr = head, index = 1; index < size && curr != 0; index++) {
+        int next_curr = elements[curr].next;
+        printf("index = %d, curr = %d\n", index, curr);
+        swap(&elements[index], &elements[curr], index);
+        curr = next_curr;
+    } */
+
+    ASSERT_OK
 
     return RETURNED_SIGNALS::OK;
 }
@@ -310,6 +332,8 @@ RETURNED_SIGNALS List::sort(){
 //-----------------------------------------------------------physical and logical index-----------------------------------------------------------
 
 RETURNED_SIGNALS List::get_physical_index_by_logical_index(size_t logical_ind, size_t* physical_ind) {
+
+    ASSERT_OK
     
     if (logical_ind > size) {
         return RETURNED_SIGNALS::WRONG_INDEX;
@@ -334,20 +358,29 @@ RETURNED_SIGNALS List::get_physical_index_by_logical_index(size_t logical_ind, s
         *physical_ind = curr;
     }
 
+    ASSERT_OK
+
     return RETURNED_SIGNALS::OK;
 } 
 
-RETURNED_SIGNALS List::data_by_physical_index(size_t index, elem_t* val){
+RETURNED_SIGNALS List::data_by_physical_index(size_t index, elem_t* val) {
+
+    ASSERT_OK
     
     if (elements[index].prev == -1) {
         return RETURNED_SIGNALS::WRONG_INDEX;
     }
 
     *val = elements[index].data;
+
+    ASSERT_OK
+
     return RETURNED_SIGNALS::OK;
 }
 
 RETURNED_SIGNALS List::data_by_logical_index(size_t index, elem_t* val){
+
+    ASSERT_OK
 
     size_t phys_index = 0;
 
@@ -359,6 +392,8 @@ RETURNED_SIGNALS List::data_by_logical_index(size_t index, elem_t* val){
         return RETURNED_SIGNALS::WRONG_INDEX;
     }
     data_by_physical_index(phys_index, val);
+
+    ASSERT_OK
 }
 
 //-----------------------------------------------------------------dump functions-----------------------------------------------------------------
@@ -418,58 +453,12 @@ void List::dump_list(int test_num, int pass) {
     fclose(dump_file);  
 
     char* buf = (char*) calloc(100, sizeof(char));
-    snprintf(buf, 100, "dot -Tpng dump.gz -o imgs/test_%d_%d.png", test_num, pass);
+    snprintf(buf, 100, "dot -q -Tpng dump.gz -o imgs/test_%d_%d.png", test_num, pass);
     system(buf);
 
     free(buf);
     
     dump_table(test_num, pass);
-}
-
-void List::do_html(int num_of_tests) {
-
-    FILE* html_file = fopen("dump.html", "w");
-
-    Xprint_html("<!doctype html>\n\n"
-                "<style>\n"
-                "    table, th, td {\n"
-                "        border:1px solid black;\n"
-                "    }\n"
-                "</style>\n\n"
-                "<html lang=\"en\">\n"
-                "<head>\n"
-                "    <meta charset=\"utf-8\">\n"
-                "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n\n"
-                "    <title>List DUMP</title>\n"
-                "</head>\n"
-                "<body>\n\n");
-
-    for (int i = 1; i <= num_of_tests; i++) {
-        
-        Xprintf_html("    <h1 style=\"color:black;background-color:#F9E79F;text-align:center;\">Test %d. %s</h1>\n"
-                     "    <p> </p>\n"
-                     "    <p style=\"background-color:#FCF9E7;text-align:center;\">Before</p>\n"
-                     "    <img src=\"imgs/table_%d_1.png\" alt=\"table\">\n"
-                     "    <p> </p>\n"
-                     "    <img src=\"imgs/test_%d_1.png\" alt=\"before\">\n"
-                     "    <p> </p>\n"
-                     "    <p style=\"background-color:#FCF9E7;text-align:center;\">After</p>\n"
-                     "    <img src=\"imgs/table_%d_2.png\" alt=\"table\">\n"
-                     "    <p> </p>\n"
-                     "    <img src=\"imgs/test_%d_2.png\" alt=\"after\">\n"
-                     "    <p> </p>\n"
-                     "    <p> </p>\n"
-                     "    <p> </p>\n",
-                    
-                    i, test_names[i-1], i, i,/* END_SIGNALS[status], size(), capacity, head, tail, first_free,*/ i, i);
-    }
-
-    Xprint_html("</body>\n"
-                "</html>\n");
-
-    fclose(html_file);
-
-    system("firefox dump.html");
 }
 
 void List::dump_table(int test_num, int pass) {
@@ -495,7 +484,78 @@ void List::dump_table(int test_num, int pass) {
 
 
     char* buf = (char*) calloc(100, sizeof(char));
-    snprintf(buf, 100, "dot -Tpng table.gz -o imgs/table_%d_%d.png", test_num, pass);
+    snprintf(buf, 100, "dot -q -Tpng table.gz -o imgs/table_%d_%d.png", test_num, pass);
     system(buf);
     free(buf);     
+}
+
+//-----------------------------------------------------------------verification-----------------------------------------------------------------
+
+void print_log_wrappaer (void* someObj) {
+    List* list_tmp = (List*) someObj;
+    list_tmp->print_error_message_to_log_file(list_tmp->verify());
+}
+
+int List::print_error_message_to_log_file(int error) {
+    
+    int error_name_index = 0;
+
+    fprintf(log_file, "\n\nList statues: " );
+                      
+
+    if (error & 1 == 1) {
+        fprintf(log_file, "%s\n", ERROR_NAMES[error_name_index]);
+        return 0;
+    }
+    else {
+        error_name_index++;
+    }
+    
+    compare_error_code_with_mask(error, ERRORS::ZERO_ELEMENT_ERROR, &error_name_index);
+    compare_error_code_with_mask(error, ERRORS::NEXT_ERROR,         &error_name_index);
+    compare_error_code_with_mask(error, ERRORS::PREV_ERROR,         &error_name_index);
+    compare_error_code_with_mask(error, ERRORS::SIZE_ERROR,         &error_name_index);    
+}
+
+void List::compare_error_code_with_mask(int error, ERRORS mask, int* error_name_index) {
+    if ((error & (int)mask)) {
+        fprintf(log_file, ERROR_NAMES[*error_name_index]);
+    }
+    *error_name_index++;
+}    
+
+int List::verify() {
+    return (int) verify_zero_element() | (int) verify_head_to_tail() | (int) verify_tail_to_head() | (int) verify_size();
+}
+
+ERRORS List::verify_zero_element() {
+    if (/*elements[0].next != head || elements[0].prev != tail || elements[0].data != POISON*/0) {
+        return ERRORS::ZERO_ELEMENT_ERROR;
+    }
+    return ERRORS::OK;
+}
+
+ERRORS List::verify_head_to_tail() {
+    for (int index = head, count = 1; count <= size; count++, index = elements[index].next) {
+        if (index <= 0 || index >= capacity || elements[index].data == POISON || elements[index].prev == -1 ) {
+            return ERRORS::NEXT_ERROR;
+        }
+    }
+    return ERRORS::OK;
+}
+
+ERRORS List::verify_tail_to_head() {
+    for(int index = tail, count = 1; count <= size; count++, index = elements[index].prev){
+        if(index <= 0 || index > capacity){
+            return ERRORS::PREV_ERROR;
+        }
+    }
+    return ERRORS::OK;
+}
+
+ERRORS List::verify_size() {
+    if (first_free <= 0 || size >= capacity || head > capacity || tail > capacity || first_free > capacity) {
+        return ERRORS::SIZE_ERROR;
+    }
+    ERRORS::OK;
 }

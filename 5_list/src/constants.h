@@ -12,6 +12,8 @@ enum ELEM_TYPES {
     TAIL     = 3
 };
 
+#define LOCATION __DATE__, __TIME__, __FILE__, __func__, __LINE__ 
+
 // #define Xprintf_img(format, ...)  fprintf(dump_file, format, __VA_ARGS__);
 // #define Xprint_img(str)           fprintf(dump_file, "%s", str);
 

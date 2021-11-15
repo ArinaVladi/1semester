@@ -16,9 +16,13 @@ typedef union {
     RETURNED_SIGNALS (List::*no_func_ptr) ();
 } any_list_func_ptr;
 
-void func_wrapper(List*             list, 
-                  any_list_func_ptr func, 
-                  FUNC_ARG_TYPES    type,        
-                  int              index = -13,
-                  const elem_t* elem_ptr = (elem_t*)13);
+RETURNED_SIGNALS  func_wrapper(char*        test_name,
+                               List*             list, 
+                               any_list_func_ptr func, 
+                               FUNC_ARG_TYPES    type,        
+                               int              index = -13,
+                               const elem_t* elem_ptr = (elem_t*)13);
+
+void do_html(int num_of_tests);
+
 

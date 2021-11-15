@@ -1,7 +1,5 @@
 # Applicaton options
-#APPLICATION = $(notdir $(CURDIR)) # Application name is name of root holder
-GXX_STANDARD = 17 # 11, 14, 17, 20
-OUT_FILE_NAME = list
+GXX_STANDARD = 17 
 
 # Сompiler options
 CC = g++
@@ -23,42 +21,26 @@ else
     BUILD_PATH = build-release
 endif
 
-#CXXFLAGS += -Igoogletest/include
-#LXXFLAGS += -Lgoogletest/lib -lgtest -lgtest_main -lpthread
-
+LXXFLAGS += -lgtest -lgtest_main -lpthread
 
 # Search for source files
 SRC_FULL_PATH = $(shell where /r ./ *.cpp)
-EXLUDED = # Excluded files
-#SRC = $(filter-out $(EXLUDED),$(notdir $(SRC_FULL_PATH)))
 SRC = src
 OBJ = $(addprefix $(BIN_DIR)/, $(SRC:.cpp=.o))
 
 
-#
-#VPATH = $(subst \,/,$(dir $(SRC_FULL_PATH)))
-
-
 # Build project
-#list: $(OBJ) Makefile
-list: bin/list.o bin/tests.o Makefile
-	g++ bin/list.o bin/tests.o -o build_debug/list $(LXXFLAGS)
+list: bin/list.o bin/tests.o bin/log.o Makefile
+	g++ bin/list.o bin/tests.o bin/log.o -o build_debug/list $(LXXFLAGS)
 
-# Dependency checking
-#include $(addprefix $(BIN_DIR)/, $(SRC:.cpp=.d))
-
-# Compilation source
 bin/list.o: src/list.cpp Makefile
 	$(CC) $< -c -o $@ $(CXXFLAGS)
 
 bin/tests.o: src/tests.cpp Makefile
+	$(CC) $< -c -o $@ $(CXXFLAGS) $(LXXFLAGS)
+
+bin/log.o: src/log.cpp Makefile
 	$(CC) $< -c -o $@ $(CXXFLAGS)	
-
-# Updating dependencies
-
-
-
-
 
 .PHONY: init clean
 init:

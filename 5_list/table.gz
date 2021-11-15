@@ -3,11 +3,11 @@ node [ shape=none fontname=Helvetica ]
 n3 [ label = <
 <table>
     <tr><td>List state</td><td> OK </td></tr>
-    <tr><td>Size</td><td> 15 </td></tr>
+    <tr><td>Size</td><td> 5 </td></tr>
     <tr><td>Capacity</td><td> 20 </td></tr>
     <tr><td>Head</td><td> 1 </td></tr>
-    <tr><td>Tail</td><td> 15 </td></tr>
-    <tr><td>First free element  </td><td> 16 </td></tr>
+    <tr><td>Tail</td><td> 19 </td></tr>
+    <tr><td>First free element  </td><td> 5 </td></tr>
 </table>
 > ]
 }

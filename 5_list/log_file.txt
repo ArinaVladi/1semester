@@ -1,0 +1,1288 @@
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       Ctor
+    line:           44
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       push_back
+    line:           196
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       insert
+    line:           149
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       insert
+    line:           178
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       push_back
+    line:           196
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       insert
+    line:           149
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       insert
+    line:           178
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       push_back
+    line:           196
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       insert
+    line:           149
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       insert
+    line:           178
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       push_back
+    line:           196
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       insert
+    line:           149
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       insert
+    line:           178
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       push_back
+    line:           196
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       insert
+    line:           149
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       insert
+    line:           178
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       push_back
+    line:           196
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       insert
+    line:           149
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       insert
+    line:           178
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       push_back
+    line:           196
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       insert
+    line:           149
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       insert
+    line:           178
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       push_back
+    line:           196
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       insert
+    line:           149
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       insert
+    line:           178
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       push_back
+    line:           196
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       insert
+    line:           149
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       insert
+    line:           178
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       push_back
+    line:           196
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       insert
+    line:           149
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       increase_capacity
+    line:           80
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       increase_capacity
+    line:           105
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       insert
+    line:           178
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       push_back
+    line:           196
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       insert
+    line:           149
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       insert
+    line:           178
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       push_back
+    line:           196
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       insert
+    line:           149
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       insert
+    line:           178
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       push_back
+    line:           196
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       insert
+    line:           149
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       insert
+    line:           178
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       push_back
+    line:           196
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       insert
+    line:           149
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       insert
+    line:           178
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       push_back
+    line:           196
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       insert
+    line:           149
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       insert
+    line:           178
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       push_back
+    line:           196
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       insert
+    line:           149
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       insert
+    line:           178
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       push_back
+    line:           196
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       insert
+    line:           149
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       insert
+    line:           178
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       push_back
+    line:           196
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       insert
+    line:           149
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       insert
+    line:           178
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       push_back
+    line:           196
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       insert
+    line:           149
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       insert
+    line:           178
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       erase
+    line:           210
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       erase
+    line:           210
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       erase
+    line:           210
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       erase
+    line:           253
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       erase
+    line:           210
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       erase
+    line:           253
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       erase
+    line:           210
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       erase
+    line:           253
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       erase
+    line:           210
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       erase
+    line:           253
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       erase
+    line:           210
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       erase
+    line:           253
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       erase
+    line:           210
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       erase
+    line:           253
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       erase
+    line:           210
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       erase
+    line:           253
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       erase
+    line:           210
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       erase
+    line:           253
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       erase
+    line:           210
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       erase
+    line:           253
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       erase
+    line:           210
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       erase
+    line:           253
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       erase
+    line:           210
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       erase
+    line:           253
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       erase
+    line:           210
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       erase
+    line:           253
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       erase
+    line:           210
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       erase
+    line:           253
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       erase
+    line:           210
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       erase
+    line:           253
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       erase
+    line:           210
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.
+--------------------------------------------------------------------------------
+Nov 15 2021
+DUMP from:
+    file:           src/list.cpp
+    function:       Dtor
+    line:           51
+    name:           list
+    object address: 0x5607097f7bd0
+    object type:    List
+    data type:      double
+    data elem size: 8
+
+
+List statues:               OK.

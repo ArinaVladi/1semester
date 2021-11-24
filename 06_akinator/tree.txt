@@ -1,0 +1,25 @@
+<animal> {
+<underwater> {
+<rather small> {
+<even smaller> {
+<seahorse>
+<dolphin>
+}
+<whale>
+}
+<bird> {
+<parrot>
+<barks> {
+<dog>
+<cat>
+}
+}
+}
+<food> {
+<sweet> {
+<cake>
+<salad>
+}
+<car>
+}
+}

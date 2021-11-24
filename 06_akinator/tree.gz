@@ -1,0 +1,122 @@
+digraph G {
+    rankdir=TB
+    node [shape=plaintext]
+[splines=ortho, color="#3d5a80"]edge[splines=ortho, color="#3d5a80"]93938847891488 -> 93938847891536 [label="yes"]
+93938847891488 -> 93938847891968 [label="no"]
+93938847891488 [ label = <
+    <table>
+        <tr><td port="Root" colspan="2" bgcolor="#ee6c4d">animal</td></tr>
+        <tr><td port="left" bgcolor="#ee6c4d">underwater</td><td port="right" bgcolor="#e0fbfc">food</td></tr>
+    </table>
+> ]
+[splines=ortho, color="#3d5a80"]edge[splines=ortho, color="#3d5a80"]93938847891536 -> 93938847891584 [label="yes"]
+93938847891536 -> 93938847891728 [label="no"]
+93938847891536 [ label = <
+    <table>
+        <tr><td port="Root" colspan="2" bgcolor="#ee6c4d">underwater</td></tr>
+        <tr><td port="left" bgcolor="#ee6c4d">rather small</td><td port="right" bgcolor="#e0fbfc">bird</td></tr>
+    </table>
+> ]
+[splines=ortho, color="#3d5a80"]edge[splines=ortho, color="#3d5a80"]93938847891584 -> 93938847891632 [label="yes"]
+93938847891584 -> 93938847891680 [label="no"]
+93938847891584 [ label = <
+    <table>
+        <tr><td port="Root" colspan="2" bgcolor="#ee6c4d">rather small</td></tr>
+        <tr><td port="left" bgcolor="#ee6c4d">even smaller</td><td port="right" bgcolor="#e0fbfc">whale</td></tr>
+    </table>
+> ]
+[splines=ortho, color="#3d5a80"]edge[splines=ortho, color="#3d5a80"]93938847891632 -> 93938847899440 [label="yes"]
+93938847891632 -> 93938847899488 [label="no"]
+93938847891632 [ label = <
+    <table>
+        <tr><td port="Root" colspan="2" bgcolor="#ee6c4d">even smaller</td></tr>
+        <tr><td port="left" bgcolor="#ee6c4d">seahorse</td><td port="right" bgcolor="#e0fbfc">dolphin</td></tr>
+    </table>
+> ]
+[splines=ortho, color="#3d5a80"]edge[splines=ortho, color="#3d5a80"]93938847899440 [ label = <
+    <table>
+        <tr><td port="Root" colspan="2" bgcolor="#ee6c4d">seahorse</td></tr>
+        <tr><td port="left" bgcolor="#ee6c4d">-</td><td port="right" bgcolor="#ee6c4d">-</td></tr>
+    </table>
+> ]
+[splines=ortho, color="#3d5a80"]edge[splines=ortho, color="#3d5a80"]93938847899488 [ label = <
+    <table>
+        <tr><td port="Root" colspan="2" bgcolor="#98c1d9">dolphin</td></tr>
+        <tr><td port="left" bgcolor="#98c1d9">-</td><td port="right" bgcolor="#98c1d9">-</td></tr>
+    </table>
+> ]
+[splines=ortho, color="#3d5a80"]edge[splines=ortho, color="#3d5a80"]93938847891680 [ label = <
+    <table>
+        <tr><td port="Root" colspan="2" bgcolor="#98c1d9">whale</td></tr>
+        <tr><td port="left" bgcolor="#98c1d9">-</td><td port="right" bgcolor="#98c1d9">-</td></tr>
+    </table>
+> ]
+[splines=ortho, color="#3d5a80"]edge[splines=ortho, color="#3d5a80"]93938847891728 -> 93938847891776 [label="yes"]
+93938847891728 -> 93938847891824 [label="no"]
+93938847891728 [ label = <
+    <table>
+        <tr><td port="Root" colspan="2" bgcolor="#e0fbfc">bird</td></tr>
+        <tr><td port="left" bgcolor="#e0fbfc">parrot</td><td port="right" bgcolor="#e0fbfc">barks</td></tr>
+    </table>
+> ]
+[splines=ortho, color="#3d5a80"]edge[splines=ortho, color="#3d5a80"]93938847891776 [ label = <
+    <table>
+        <tr><td port="Root" colspan="2" bgcolor="#98c1d9">parrot</td></tr>
+        <tr><td port="left" bgcolor="#98c1d9">-</td><td port="right" bgcolor="#98c1d9">-</td></tr>
+    </table>
+> ]
+[splines=ortho, color="#3d5a80"]edge[splines=ortho, color="#3d5a80"]93938847891824 -> 93938847891872 [label="yes"]
+93938847891824 -> 93938847891920 [label="no"]
+93938847891824 [ label = <
+    <table>
+        <tr><td port="Root" colspan="2" bgcolor="#e0fbfc">barks</td></tr>
+        <tr><td port="left" bgcolor="#e0fbfc">dog</td><td port="right" bgcolor="#e0fbfc">cat</td></tr>
+    </table>
+> ]
+[splines=ortho, color="#3d5a80"]edge[splines=ortho, color="#3d5a80"]93938847891872 [ label = <
+    <table>
+        <tr><td port="Root" colspan="2" bgcolor="#98c1d9">dog</td></tr>
+        <tr><td port="left" bgcolor="#98c1d9">-</td><td port="right" bgcolor="#98c1d9">-</td></tr>
+    </table>
+> ]
+[splines=ortho, color="#3d5a80"]edge[splines=ortho, color="#3d5a80"]93938847891920 [ label = <
+    <table>
+        <tr><td port="Root" colspan="2" bgcolor="#98c1d9">cat</td></tr>
+        <tr><td port="left" bgcolor="#98c1d9">-</td><td port="right" bgcolor="#98c1d9">-</td></tr>
+    </table>
+> ]
+[splines=ortho, color="#3d5a80"]edge[splines=ortho, color="#3d5a80"]93938847891968 -> 93938847892016 [label="yes"]
+93938847891968 -> 93938847892160 [label="no"]
+93938847891968 [ label = <
+    <table>
+        <tr><td port="Root" colspan="2" bgcolor="#e0fbfc">food</td></tr>
+        <tr><td port="left" bgcolor="#e0fbfc">sweet</td><td port="right" bgcolor="#e0fbfc">car</td></tr>
+    </table>
+> ]
+[splines=ortho, color="#3d5a80"]edge[splines=ortho, color="#3d5a80"]93938847892016 -> 93938847892064 [label="yes"]
+93938847892016 -> 93938847892112 [label="no"]
+93938847892016 [ label = <
+    <table>
+        <tr><td port="Root" colspan="2" bgcolor="#e0fbfc">sweet</td></tr>
+        <tr><td port="left" bgcolor="#e0fbfc">cake</td><td port="right" bgcolor="#e0fbfc">salad</td></tr>
+    </table>
+> ]
+[splines=ortho, color="#3d5a80"]edge[splines=ortho, color="#3d5a80"]93938847892064 [ label = <
+    <table>
+        <tr><td port="Root" colspan="2" bgcolor="#98c1d9">cake</td></tr>
+        <tr><td port="left" bgcolor="#98c1d9">-</td><td port="right" bgcolor="#98c1d9">-</td></tr>
+    </table>
+> ]
+[splines=ortho, color="#3d5a80"]edge[splines=ortho, color="#3d5a80"]93938847892112 [ label = <
+    <table>
+        <tr><td port="Root" colspan="2" bgcolor="#98c1d9">salad</td></tr>
+        <tr><td port="left" bgcolor="#98c1d9">-</td><td port="right" bgcolor="#98c1d9">-</td></tr>
+    </table>
+> ]
+[splines=ortho, color="#3d5a80"]edge[splines=ortho, color="#3d5a80"]93938847892160 [ label = <
+    <table>
+        <tr><td port="Root" colspan="2" bgcolor="#98c1d9">car</td></tr>
+        <tr><td port="left" bgcolor="#98c1d9">-</td><td port="right" bgcolor="#98c1d9">-</td></tr>
+    </table>
+> ]
+}

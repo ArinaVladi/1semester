@@ -98,8 +98,12 @@ void Tree::Dtor() {
 
 void Node::Dtor() {
 
-    if (left != nullptr) left->Dtor();
-    if (right != nullptr)right->Dtor();
+    if (left != nullptr) left->Delete();
+    if (right != nullptr)right->Delete();
+    Delete();
+}
+
+void Node::Delete() {
     free(this);
 }
 
@@ -228,54 +232,78 @@ void Node::form_tree(syntagm_t** syntagms, int* token_num) {
 //-----------------------------------------------------------------------choose mode-----------------------------------------------------------------------
 
 enum class MODES {
-    GUESS      = 103,
-    DEFINITION = 100,
-    COMPARISON =  99,
-    SHOW_TREE  = 115,
-    ESCAPE     = 101,
+    GUESS      = 'g',
+    DEFINITION = 'd',
+    COMPARISON = 'c',
+    SHOW_TREE  = 's',
+    ESCAPE     = 'e',
 };
 
-#define DO_MODE_AND_SHOW_TREE(func)  \
-        func();                      \
-        show_after_another_mode(); 
+END_SIGNALS tree_func_wrapper(Tree* tree, END_SIGNALS (Tree::*func) (void)) {
+    END_SIGNALS returned_val = (tree->*func)();
+    tree->show_after_another_mode();
+}
 
 END_SIGNALS Tree::choose_mode() {
 
     ASSERT_OK
+    
+    int user_input;
+        while (write_to_speech_file("\nChoose one of five modes. Guess object, get object's definition, make comparison, show tree or escape\n") &&
+               printf("Choose mode\n" "[G]uess \\ Get [D]efinition \\ Make [C]omparison \\ [S]how tree \\ [E]scape \n") &&
+               ((user_input = tolower(get_user_input()[0])) != (int)MODES::ESCAPE)) {
+            
+        switch (user_input) {
+            
+            case (int)MODES::GUESS :
+                tree_func_wrapper(this, &Tree::guess);
+                break;
+    
+            case (int)MODES::DEFINITION :
+                tree_func_wrapper(this, &Tree::give_definition);
+                break;
+    
+            case (int)MODES::COMPARISON :
+                tree_func_wrapper(this, &Tree::make_comparison);
+                break;  
+    
+            case (int)MODES::SHOW_TREE :
+                show_tree();
+                break;
+    
+            default:
+                write_to_speech_file("Wrong user input.\n");
+                assert(0);
+        }
 
-    write_to_speech_file("Choose one of five modes. Guess object, get object's definition, make comparison, show tree or escape\n"); //?
-    printf("Choose mode\n" "[G]uess \\ Get [D]efinition \\ Make [C]omparison \\ [S]how tree \\ [E]scape \n");
+        clear_is_passed();
 
-    int user_input = tolower(get_user_input()[0]);
-
-    switch (user_input) {
-        
-        case (int)MODES::GUESS :
-            DO_MODE_AND_SHOW_TREE(guess);
-            break;
-
-        case (int)MODES::DEFINITION :
-            DO_MODE_AND_SHOW_TREE(give_definition);
-            break;
-
-        case (int)MODES::COMPARISON :
-            DO_MODE_AND_SHOW_TREE(make_comparison);
-            break;  
-
-        case (int)MODES::SHOW_TREE :
-            show_tree();
-            break;
-
-        case (int)MODES::ESCAPE :
-            break;    
-
-        default:
-            write_to_speech_file("Wrong user input.\n");
-            assert(0);
     }
     ASSERT_OK
     return END_SIGNALS::OK;
 } 
+
+END_SIGNALS Tree::clear_is_passed() {
+    
+    ASSERT_OK
+
+    root->clear_is_passed();
+
+    ASSERT_OK
+
+    return END_SIGNALS::OK;
+}
+
+void Node::clear_is_passed() {
+    
+    if (is_passed == true) {
+        if (left != right) {
+            left->clear_is_passed();
+            right->clear_is_passed();
+        }
+    }
+    is_passed = false;
+}
 
 //--------------------------------------------------------------------------guess--------------------------------------------------------------------------
 
@@ -395,7 +423,8 @@ void Definition::Ctor(char* name_to_search) {
 END_SIGNALS Tree::give_definition() {
 
     ASSERT_OK
-
+    
+    printf("Enter object:\n");
     char* name = get_user_input();
 
     Definition def = {};
@@ -463,7 +492,7 @@ void Definition::print_definition() {
     }
 
     int iter = features_num-1;
-    write_to_speech_file(name);
+    write_to_speech_file("%s ", name);
 
     for (; iter > 0; iter--) {
          write_to_speech_file("%s %s, ", IS_FEATURE[IS(iter)], NAME(iter));
@@ -668,7 +697,7 @@ char* get_user_input() {
     return user_input;
 }
 
-void write_to_speech_file(char* format, ...) { 
+int write_to_speech_file(char* format, ...) { 
 
     FILE* speech_file = fopen(speech_file_name, "w+");
    
@@ -710,4 +739,6 @@ void write_to_speech_file(char* format, ...) {
     fclose(speech_file);
 
     system("festival --tts speech_test.txt"); // переделать с именем файла и буфером
+
+    return 1;
 }

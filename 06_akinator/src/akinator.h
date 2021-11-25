@@ -81,6 +81,7 @@ typedef struct Node_t {
 
     void           Ctor(const char* string);
     VERIFY_SIGNALS verify();
+    void           Delete();
     void           Dtor();
     
     void           form_tree(syntagm_t** syntagms, int* syntagm_num);
@@ -93,6 +94,9 @@ typedef struct Node_t {
     void           make_comparison();
     
     void           do_dump(FILE* dump_file);
+
+    void           clear_is_passed();
+
     void           write_to_buf(FILE* buf_file);
 
 } Node;
@@ -127,6 +131,8 @@ typedef struct {
     END_SIGNALS show_tree();
     END_SIGNALS show_after_another_mode();
 
+    END_SIGNALS clear_is_passed();
+
     END_SIGNALS do_dump();
 
 } Tree;
@@ -135,7 +141,7 @@ typedef struct {
 
 char  process_Yes_No_answer();
 char* get_user_input();
-void  write_to_speech_file(char* format, ...);
+int   write_to_speech_file(char* format, ...);
 
 #define PROCESS_YES_NO_ANSWER(yes_action, no_action)  \
     if (user_input == '1') {                          \

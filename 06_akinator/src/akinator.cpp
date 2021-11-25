@@ -256,15 +256,18 @@ END_SIGNALS Tree::choose_mode() {
         switch (user_input) {
             
             case (int)MODES::GUESS :
-                tree_func_wrapper(this, &Tree::guess);
+                guess();
+                show_after_another_mode();
                 break;
     
             case (int)MODES::DEFINITION :
-                tree_func_wrapper(this, &Tree::give_definition);
+                give_definition();
+                show_after_another_mode();
                 break;
     
             case (int)MODES::COMPARISON :
-                tree_func_wrapper(this, &Tree::make_comparison);
+                make_comparison();
+                show_after_another_mode();
                 break;  
     
             case (int)MODES::SHOW_TREE :
